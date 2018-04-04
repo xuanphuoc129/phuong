@@ -58,4 +58,17 @@ page-list {
       }
     }
   }
+  .parent{
+    width: 100%;
+    background: red;
+    text-align: left;
+  }
+  .child{
+    width: 50%;
+    margin: auto;
+    background: black;
+    color: white;
+    padding: 20px ;
+    text-align: center;
+  }
 }

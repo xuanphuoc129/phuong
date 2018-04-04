@@ -11,11 +11,6 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content>
-  
-  <div class="toggle-container flex">
-    <div class="toggle-item" [class.selected]="i==menuIndex" *ngFor="let item of items; let i = index" (click)="change(i)" tappable>{{item}}</div>
-    <div class="toggle-item animate" [class.position1]="menuIndex==0" [class.position2]="menuIndex==1" [class.position3]="menuIndex==2" id="animate"></div>
-  </div>
- 
+<ion-content class="app-content">
+  <button ion-button block class="app-button" navPop>Button 2</button>
 </ion-content>

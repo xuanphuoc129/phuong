@@ -1,0 +1,25 @@
+page-modal {
+    ion-content.content{
+        background: rgba($color: #000000, $alpha: .8);
+    }
+    .backdrop{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+    .pop-up{
+        z-index: 10;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        background: white;
+        border-radius: 20px;
+        height: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        box-shadow: 0 4px 6px rgba($color: #000000, $alpha: .4);
+    }
+}

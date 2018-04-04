@@ -38,9 +38,20 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
 );
 
+$appSizes: (
+  button: 1.4rem,
+  title: 1.6rem,
+  padding-top: 1rem,
+);
+
+$appColors: (
+  primary: #2B2D5B,
+  red: #F63535,
+  yellow: #EFBC2C
+);
 
 // App iOS Variables
 // --------------------------------------------------
@@ -86,3 +97,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+

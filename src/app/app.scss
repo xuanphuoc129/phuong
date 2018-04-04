@@ -17,3 +17,31 @@
 .flex{
     display: flex;
 }
+.app-button{
+    font-size: map-get($map: $appSizes, $key: button);
+    background: map-get($map: $appColors, $key: primary);
+    box-shadow: 0 3px 6px gray;
+}
+.app-content{
+    background: map-get($map: $appColors, $key: primary);
+}
+.color-white{
+    color: white;
+}
+.title-font{
+    font-size: map-get($map: $appSizes, $key: title);
+}
+.normal-font{
+    font-size: 1.6rem;
+}
+.a3-container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
